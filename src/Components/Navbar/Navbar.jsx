@@ -13,7 +13,7 @@ export const Navbar = ({logOut}) => {
             <nav className='navbar__container'>
 
                 <div className='navbar__left-group'>
-                    <img src={logo} alt="Logo" />
+                    <a href='https://www.linkedin.com/in/KaranNandwani0' target="_blank"><img src={logo} alt="Logo" /></a>
                 </div>
 
                 <div className='navbar__right-group'>

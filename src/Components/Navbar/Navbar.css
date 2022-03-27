@@ -20,3 +20,16 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+@media screen and (max-width: 450px) {
+    .navbar__right-group {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .navbar__right-group {
+        font-size: 0.6em;
+    }
+}

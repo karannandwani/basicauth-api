@@ -19,7 +19,7 @@ export const Login = ({ setToggle, changeEmail, changePassword, logIn, user }) =
                         <input type="password" id='passinp' placeholder='Enter your password...' onChange={(e) => changePassword(e)} />
                     </div>
 
-                    <button type='button' className='custom-button' onClick={logIn}>login</button>
+                    <button type='button' className='custom-button' onClick={logIn}>Login</button>
                 </form>
 
 

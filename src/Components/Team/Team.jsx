@@ -15,7 +15,6 @@ export const Team = () => {
             .get('https://reqres.in/api/users?page=2')
             .then((response) => {
                 tempData = response.data.data;
-                // console.log(response.data.data);
             })
             .catch((error) => console.log(error)) 
 
@@ -26,8 +25,6 @@ export const Team = () => {
         fetchData();
     }, [])
 
-    // console.log(teamData)
-    // console.log(teamData.length)
 
     return (
         <div className='body__team-bg'>

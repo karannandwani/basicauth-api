@@ -13,7 +13,6 @@
 
 .body__resources-container {
     max-width: 80%;
-    /* background-color: red; */
 
     flex-wrap: wrap;
 }
