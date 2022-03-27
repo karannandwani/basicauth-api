@@ -6,7 +6,7 @@
 >>
 >>run "npm i" to install dependencies in the root folder.
 >>
->>type "npm start" in root terminal first, followed by the second terminal.
+>>type "npm start" in root terminal.
 >>
 >>Enjoy!
 
