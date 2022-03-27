@@ -1,0 +1,29 @@
+.body__team-bg {
+    min-height: 93.8vh;
+
+    background: url(../../Assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__team-container {
+    max-width: 80%;
+    /* background-color: red; */
+
+    flex-wrap: wrap;
+}
+
+.body__team-entity img{
+    width: 200px;
+}
+
+.body__team-entity {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

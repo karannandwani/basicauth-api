@@ -1,0 +1,29 @@
+.body__resources-bg {
+    min-height: 93.8vh;
+
+    background: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__resources-container {
+    max-width: 80%;
+    /* background-color: red; */
+
+    flex-wrap: wrap;
+}
+
+.body__resources-entity img{
+    width: 200px;
+}
+
+.body__resources-entity {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

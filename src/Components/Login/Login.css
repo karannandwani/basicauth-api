@@ -1,0 +1,24 @@
+.login__body {
+    min-height: 100vh;
+    /* background-color: red; */
+}
+
+.login__form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__form-inpgrp label{
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+.login__form-inpgrp input{
+    font-size: 1.2em;
+    min-width: 65%;
+}
+
+.login__form-inpgrp {
+    padding: 10px;
+}

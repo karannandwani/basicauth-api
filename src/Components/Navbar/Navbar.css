@@ -1,0 +1,22 @@
+.navbar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px;
+    background-color: #7851A9;
+    height: 1vh;
+}
+
+.navbar__left-group img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.navbar__right-group a{
+    cursor: pointer;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}

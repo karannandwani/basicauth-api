@@ -1,0 +1,22 @@
+.body__welcome-bg {
+    min-height: 93.8vh;
+
+    background: url(../../Assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body__welcome-central-element {
+    flex-direction: column;
+}
+
+.body__welcome-central-element h1{
+    font-size: 5em;
+    color: #DCCA87;
+}
+
+.body__welcome-central-element h5{
+    font-size: 1.5rem;
+    color: white;
+}
